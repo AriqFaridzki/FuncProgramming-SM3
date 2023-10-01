@@ -16,10 +16,10 @@
 2. memahami sedikit konsep tentang predicate, lamda function, Consumers, Function, BiFunctions, Runnable, Supplier
 
 credit :
-https://www.baeldung.com/java-8-streams
-https://www.baeldung.com/java-stream-sum
-https://www.baeldung.com/java-split-stream
-https://www.baeldung.com/foreach-java
-https://www.scaler.com/topics/java-stream-map/
-https://www.geeksforgeeks.org/stream-maptoint-java-examples/
-https://piyush5807.medium.com/functional-interfaces-in-a-nutshell-for-java-developers-54268e25324
+1. https://www.baeldung.com/java-8-streams
+2. https://www.baeldung.com/java-stream-sum
+3.https://www.baeldung.com/java-split-stream
+4.https://www.baeldung.com/foreach-java
+5.https://www.scaler.com/topics/java-stream-map/
+6.https://www.geeksforgeeks.org/stream-maptoint-java-examples/
+7.https://piyush5807.medium.com/functional-interfaces-in-a-nutshell-for-java-developers-54268e25324
