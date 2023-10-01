@@ -25,13 +25,16 @@ Buku Rekomendasi : Functional Programming for Dummies John Wiley & sonc, inc. Ne
 1. FP itu pendekatan deklaratif
 2. FP harus menggunakan variable dari parameter saja
 3. tipe data void berkemungkinan adanya _side effect_
+4. variable argumen tidak boleh diubah kecuali dibuat value baru (clone)
 
 ## Functional Programming
-
 Functional Programming adalah suatu paradigma yang berfokus dalam function dan juga menghindari efek samping dalam program
 
 ### Karakteristik
 1. functional programming mengacu pada immutability, apa itu? jadi ketika satu entity/variable/state sudah di tetapkan maka tidak boleh diubah.
+2. Lebih Teknis dalam kodenya (menggunakan Function bawaan)
+3. terlihat lebih jelas (explicit)
+4. urutan kode tidak terlalu penting
 
 
 
