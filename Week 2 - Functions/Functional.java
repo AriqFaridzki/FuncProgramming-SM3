@@ -1,10 +1,8 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
 
 class Functional {
     public static void main(String[] args) {
@@ -20,42 +18,49 @@ class Functional {
         
         };
 
+        /**
+         * Mencari email dengan string biasa - Functional Way
+         * 
+         * @param array data emailnya
+         * @param searchArgs kriteria data yang ingin dicari
+         * @return array List tipe String
+         */
+        
         static List<String> findEmailFuctional (final List<String> array, final String searchArgs){
         
-        return array.stream()
-        .map(string -> string.toLowerCase())
-        .filter(string -> string.contains("@") && string.contains(searchArgs.toLowerCase()))
-        .collect(Collectors.toList());
+        return array.stream() // array dibuat mengantri(pipeline) satu per satu agar bisa diapply function lain
 
+        .map(string -> string.toLowerCase()) // parameter array dibuat string menjadi huruf kecil agar konsisten
+
+        .filter(string -> string.contains("@") && string.contains(searchArgs.toLowerCase()))
+        // jika string yang dicari berisikan "@" dan kriteria data yang dicari
+
+        .collect(Collectors.toList());
+        // setelah selesai di filter maka akan di convert kembali menjadi tipe data List<String>
         }
 
+          /**
+         * Mencari email dengan string biasa - Imperative Way
+         * 
+         * @param array data emailnya
+         * @param searchArgs kriteria data yang ingin dicari
+         * @return array List tipe String
+         */
         static List<String> findEmailImperative (List<String> array, String searchArgs){
-            List<String> result = new ArrayList<>();
+            List<String> result = new ArrayList<>(); // membuat array baru untuk menampung data
 
-            for (int i = 0; i < array.size(); i++) {
-                String email = array.get(i).toLowerCase();
-                if (email.contains("@") && email.contains(searchArgs.toLowerCase())) {
+            for (int i = 0; i < array.size(); i++) { // loop setiap data yang ada di array
+                String email = array.get(i).toLowerCase(); // mengambil data dan diubah menjadi huruf kecil
+                if (email.contains("@") && email.contains(searchArgs.toLowerCase())) { 
+                    //jika variable email terdapat "@" dan kriteria data yang dicari
 
                     result.add(array.get(i).toLowerCase());
+                    // maka tambahkan ke array penampungan (result)
                 }
             }
             
-            return result;
+            return result; // setelah itu di return setelah loop selesai
         }
 
 
     }
-
-
-
- 
-/*
- * input : int n
- * Write a Java program to calculate the sum of all even, odd numbers in a list using streams. 
- * 
- * 1. buat list yang menampung result
- * 2. filter angka
- * 3. simpan angka + map langsung dengan menambahkannya :D 
- * 
- * 
- */
