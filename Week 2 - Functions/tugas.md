@@ -23,3 +23,10 @@ credit :
 5. https://www.scaler.com/topics/java-stream-map/
 6. https://www.geeksforgeeks.org/stream-maptoint-java-examples/
 7. https://piyush5807.medium.com/functional-interfaces-in-a-nutshell-for-java-developers-54268e25324
+
+
+yg ingin dipelajari
+1. https://howtodoinjava.com/java8/intstream-examples/
+2. https://www.baeldung.com/java-stream-reduce
+3. https://www.scaler.com/topics/java/streams-in-java/
+4. https://howtodoinjava.com/java/collections/arraylist/java-arraylist/
