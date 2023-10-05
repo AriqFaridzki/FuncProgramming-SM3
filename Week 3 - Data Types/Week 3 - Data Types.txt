@@ -1,0 +1,9 @@
+Type Signature
+number -> number -> number
+
+example
+
+```javascript
+// numToString :: Number -> String
+const numToString = num => num.toString
+```
