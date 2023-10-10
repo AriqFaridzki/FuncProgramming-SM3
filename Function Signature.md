@@ -82,22 +82,27 @@ public class Latihan4{
    * yaitu satu method yang bisa di modifikasi lagi dengan isi fungsi yang berbeda dari original ( kayak interface )
 
 
-3. Overidding
+3. Overloading
    * yaitu teknik yg bisa membuat nama yang sama functionnya tetapi berbeda parameternya :D
 ```java
 public class Latihan5{
     public void add(int x, int y){
         System.out.println(x+y);
     }
-    
-    public int add(int x, int y){
+    add :: Number -> Number -> Number (hasil return ) 
+    public int add(int x, int y){ 
         return x + y;
     
     }
-    
+  
     public static void main(String[] args ){
         Latihan5 myClass = new Latihan5();
-        myClass.add(1, 2);
+        myClass.add(1, 2); // parameter sama :D jadi error
     }
 }
+
+// harusnya parameter diubah dan return type bisa diubah juga :D
 ```
+
+> Tugas : buatlah analisa kenapa Latihan5 error, overloading method *sertakan link sumber jika mereferensikan
+> Tips : tambahkan komen seperti add :: Number -> Number -> Number :D ( type signature thingy )
