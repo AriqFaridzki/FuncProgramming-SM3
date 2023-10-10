@@ -5,27 +5,26 @@ ciri khas pembuatan function dalam java
 ## syntax function
 modifier(opsional) static(opsional) return_type method_name parameter_list
 
-## java uniqueness
-1. polymorphism
-   * yaitu satu method yang bisa di modifikasi lagi dengan isi fungsi yang berbeda dari original ( kayak interface )
-  
-    '''java
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
+### Example
 
-public class HelloWorld {
+1. Method Signature tanpa Parameter dan tanpa mengembalikan type 
+  ```java
+  public class HelloWorld {
     public static void main(String[] args) {
            
-           HelloWorld hello = new HelloWorld();
-           // hello.printHello();
+      HelloWorld hello = new HelloWorld();
+      hello.printHello();
         
         }
         
     public void printHello(){
-        System.out.println("Hello World");
+      System.out.println("Hello World");
     }
 }
+```
 
+2. Method Signature dengan Parameter dan tanpa  mengembalikan type
+```java
 public class Latihan2{
     public static void myMethod(int num){
         System.out.println("The number is: " +num);
@@ -37,11 +36,11 @@ public class Latihan2{
         example.myMethod(number);
     
     }
-
-
 }
+```
 
-
+3. Method Signature tanpa Parameter dan mengembalikan type
+```java
 public class Latihan3{
 
  public String returnHelloWorld(){
@@ -54,12 +53,11 @@ public class Latihan3{
         System.out.println(result);
     
     }
-
-
-
 }
+```
 
-
+4. Method Signature dengan Parameter dan mengembalikan type
+```java
 public class Latihan4{
 
     public static int multiply(int a, int b){
@@ -76,16 +74,18 @@ public class Latihan4{
         int product = example.multiply(num1, num2);
         System.out.println("The product of" + num1 +"and" + num2 +" is " + product);
     }
-
-
-
-
 }
+```
+
+## java uniqueness
+1. polymorphism
+   * yaitu satu method yang bisa di modifikasi lagi dengan isi fungsi yang berbeda dari original ( kayak interface )
 
 
+3. Overidding
+   * yaitu teknik yg bisa membuat nama yang sama functionnya tetapi berbeda parameternya :D
+```java
 public class Latihan5{
-
-
     public void add(int x, int y){
         System.out.println(x+y);
     }
@@ -100,7 +100,4 @@ public class Latihan5{
         myClass.add(1, 2);
     }
 }
-
-   '''
-3. Overidding
-   * yaitu teknik yg bisa membuat nama yang sama functionnya tetapi berbeda parameternya :D
+```
