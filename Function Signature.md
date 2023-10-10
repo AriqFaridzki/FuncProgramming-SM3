@@ -89,7 +89,7 @@ public class Latihan5{
     public void add(int x, int y){
         System.out.println(x+y);
     }
-    // add :: Number -> Number -> Number (hasil return ) 
+    // add :: Number -> Number -> Number (hasil return pada terakhir) 
     public int add(int x, int y){ 
         return x + y;
     
