@@ -105,4 +105,5 @@ public class Latihan5{
 ```
 
 > Tugas : buatlah analisa kenapa Latihan5 error, overloading method *sertakan link sumber jika mereferensikan \
-> Tips : tambahkan komen seperti add :: Number -> Number -> Number :D ( type signature thingy )
+> Tips : tambahkan komen seperti add :: Number -> Number -> Number :D ( type signature thingy ) \
+> Deadline : 16-10-2023
