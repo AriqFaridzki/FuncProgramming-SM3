@@ -104,5 +104,5 @@ public class Latihan5{
 // harusnya parameter diubah dan return type bisa diubah juga :D
 ```
 
-> Tugas : buatlah analisa kenapa Latihan5 error, overloading method *sertakan link sumber jika mereferensikan
+> Tugas : buatlah analisa kenapa Latihan5 error, overloading method *sertakan link sumber jika mereferensikan \
 > Tips : tambahkan komen seperti add :: Number -> Number -> Number :D ( type signature thingy )
