@@ -9,3 +9,5 @@ F            y          x        y
 
 
 harus ada EAnya ya :D
+
+dibuat 2 interface dalam implementasi lamda
