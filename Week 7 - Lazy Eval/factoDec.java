@@ -18,9 +18,8 @@ public class factoDec {
 
         // .reduce untuk menjumlah hasil perkaliannya yang dimulai dari 1, 
         // dan akan dikalikan dari hasil rangeClosed itu [1,2,3,4,5]
-        // strukturnya adalah [prev, current]
+        // strukturnya adalah [hasil, hasil * elemen yang berikutnya]
         // jadi seperti [1, 1 * 1] -> [2, 1 * 2 ] [6, 2 * 3] [24, 6 * 4] [120, 24 * 5]
-        // [hasil, hasil * elemen yang berikutnya]
     }
     public static void main(String[] args) {
         System.out.println("Hello World");
