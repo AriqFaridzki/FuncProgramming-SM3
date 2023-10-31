@@ -6,14 +6,21 @@ public class factoImp {
 
             if(i == 0 || i == 1){
                 return amount;
-            }
+            } // sebagai penyetop looping 
 
             System.out.println("ariq");
-            amount *= i - 1; 
+            amount *= i - 1;  
+
+            /**
+             * perkalian amount *= i - 1 itu seperti 
+             * amount = amount * (i - 1);
+             * yang hasilnya akan di simpan pada variable amount 
+             * dan akan digunakan kembali untuk dikalikan dengan i :D
+             */
 
             
         }
-        return amount;
+        return 0; // jika gagal maka
     }
 
     public static void main(String[] args) {
