@@ -2,12 +2,9 @@ package Tugas;
 
 public class tugasRecursive {
     public static void main(String[] args) {
-        // System.out.println(multiByTwo(1, 10));
-    
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 7; i++) {
             System.out.println(multiByTwoS(1, i));
         }
-        
     }
     
     public static int multiByTwoS(int baseValue, int limiter){

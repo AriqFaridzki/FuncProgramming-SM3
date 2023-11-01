@@ -4,7 +4,7 @@ public class Latihan5{
         System.out.println(x+y);
     }
 
-    public int add(int x, int y){ 
+    public int adds(int x, int y){ 
         return x + y;
     }
 

@@ -2,9 +2,9 @@ import java.util.Arrays;
 
 public class recursive {
     public static void main(String[] args) {
-        int [] ariq = {};
-        System.out.println(genFibonacci(0, 30));
-        System.out.println(multiByTwo(1, 10,ariq,0));
+        // int [] ariq = {};
+        System.out.println(genFibonacci(0, 5));
+        // System.out.println(multiByTwo(1, 10,ariq,0));
     }
 
     public static int penjumlahan(int number){
@@ -33,7 +33,6 @@ public class recursive {
         else{
             return genFibonacci(increment + 1, targetNum - 1) ;
         }
-
     }
 
     public static int[] multiByTwo(int basevalue,int limiter, int[] result, int index ){
