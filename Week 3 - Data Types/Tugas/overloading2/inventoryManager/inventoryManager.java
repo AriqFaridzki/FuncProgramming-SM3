@@ -7,8 +7,7 @@ public class inventoryManager {
     // generateDateTime :: -> String
     public static String generateDateTime (){
         DateTimeFormatter localFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-        String time = LocalDateTime.now().format(localFormatter);
-        return time;
+        return LocalDateTime.now().format(localFormatter);
     }
 
     // addProduct :: String -> Double -> String[]
@@ -34,5 +33,6 @@ public class inventoryManager {
         String[] product = {generateDateTime().toString(), namaProduk, hargaInString, stokInString, deskripsi};
         
         return product;
+
     }
 }

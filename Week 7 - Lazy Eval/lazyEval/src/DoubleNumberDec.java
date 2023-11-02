@@ -37,7 +37,9 @@ public class DoubleNumberDec {
  * fungsi imperatif dan deklaratif?
  *
  * dari hasil yang telah dianalisa yang
- * pertama memproses semua isi dari array tersebut dan mengeluarkan hasilnya semua ( eager eval )
+ * pertama memproses semua isi dari array 
+ * tersebut dan mengeluarkan hasilnya semua 
+ * ( eager eval )
  *
  * dan yang kedua, memproses yang hanya dibutuhkan saja, yaitu dengan
  * memfilter bilangan yang dibutuhkan, setelah itu baru di proses dengan .map

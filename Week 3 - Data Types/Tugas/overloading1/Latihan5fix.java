@@ -16,7 +16,10 @@ public class Latihan5fix{
     public static void main(String[] args ){
         Latihan5fix myClass = new Latihan5fix();
 
+        myClass.add(1, 2);
+        // System.out.println(myClass.add(1, 5)); // konfik dengan method add pertama
         System.out.println(myClass.add(1, 2, 3));
+
     }
 }
 
