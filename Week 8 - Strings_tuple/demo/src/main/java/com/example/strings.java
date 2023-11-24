@@ -11,7 +11,7 @@ public class strings {
 
 
         String kataTergabung = kata1.concat(kata2);
-        System.out.println(kataTergabung);
+        System.out.println("Kata Tergabung : " + kataTergabung);
 
         String gantiJadiH = kataTergabung.replace("H", "A");
 

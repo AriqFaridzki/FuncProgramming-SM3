@@ -13,11 +13,14 @@ public class Tuples {
         System.out.println("Hapus Elemen Pada Index 1: " + tuple3);
 
 
-        Triplet<String, String, String> tupleIndex2Edit= tuple1.setAt2("Anggur");
+        Triplet<String, String, String> tupleIndex2Edit= tuple1.setAt2("Anggur"); //index 2 (0, 1, 2)
 
         System.out.println("Setelah di ubah di index 2 : " + tupleIndex2Edit);
 
-        Quartet<String, String, Integer, Integer> buahWithJumlah = buahWithJumlah.add(tuple2);
+        Quartet<String, String, Integer, Integer> buahUpdated = tuple2.add(20, 30); // langsung nambahin :D
+        
+        System.out.println("Buah Dengan Jumlah Kuantitasnya : " + buahUpdated);
+
         
 
         

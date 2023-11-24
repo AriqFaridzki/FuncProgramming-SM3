@@ -8,7 +8,6 @@ public class Book {
 
     public Book (int id, String name, String author, String publisher,
     int quantity) {
-        
         this.id = id;
         this.name = name;
         this.author = author;
